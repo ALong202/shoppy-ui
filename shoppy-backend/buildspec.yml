@@ -4,6 +4,7 @@ phases:
     runtime-versions:
       nodejs: latest
     commands:
+      - cd shoppy-backend
       - npm install -g pnpm
       - pnpm install
   build:
